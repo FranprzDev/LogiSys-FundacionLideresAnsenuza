@@ -1,0 +1,137 @@
+/* Texts */
+
+.text {
+    text-wrap: balance;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-Primary {
+    color: #F45E5F !important;
+}
+
+.text-Primary-Light {
+    color: #F78E8F !important;
+}
+
+.text-Primary-Lighter {
+    color: #FBBFBF !important;
+}
+
+.text-Primary-Lightest {
+    color: #FEEFEF !important;
+}
+
+.text-Primary-Dark {
+    color: #AB4243 !important;
+}
+
+.text-Primary-Darker {
+    color: #7A2F30 !important;
+}
+
+/* BackGrounds */
+.bg-Primary {
+    background-color: #F45E5F !important;
+}
+
+.bg-Primary-Light {
+    background-color: #F78E8F !important;
+}
+
+.bg-Primary-Lighter {
+    background-color: #FBBFBF !important;
+}
+
+.bg-Primary-Lightest {
+    background-color: #FEEFEF !important;
+}
+
+.bg-Primary-Dark {
+    background-color: #AB4243 !important;
+}
+
+.bg-Primary-Darker {
+    background-color: #7A2F30 !important;
+}
+
+.bg-Primary-Darker-LessOpacity {
+    background-color: #7a2f309a !important;
+}
+
+/* Others styles */
+
+.background-page {
+    /* background-image: url("./Patron.png");
+    background-repeat: repeat-y;
+    background-size: 100% auto; */
+    background: #FBBFBF;
+}
+
+.imagen-responsive {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .imagen-responsive {
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    .imagen-responsive {
+        max-width: 500px;
+        max-height: 500px;
+    }
+}
+
+.custom-card {
+    height: 450px;
+}
+
+.reference-link {
+    text-decoration: none;
+}
+
+.custom-dropdown:hover {
+    background-color: #FBBFBF !important;
+    color: #7A2F30 !important;
+}
+
+.subrayado::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #7A2F30;
+    margin-top: 5px;
+}
+
+.subrayado2::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #FBBFBF;
+    margin-top: 5px;
+}
+
+.bpd-img {
+    width: 800px;
+    height: 400px;
+}
+
+@media (max-width: 768px) {
+    desaparecerPa {
+        display: none;
+    }
+}
+
+.custom-width {
+    min-height: 350px;
+    /* height: 350px; */
+}
