@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function LinkPage({ title, link, index }) {
   return (
@@ -7,7 +8,10 @@ function LinkPage({ title, link, index }) {
         <h4 className="text-Primary my-2 fs-5 fw-bold fst-italic py-1">
           {title}
         </h4>
-        <a
+        <motion.a
+          whileHover={{ scale: 1.2 }}
+          onHoverStart={e => {}}
+          onHoverEnd={e => {}}
           href={link}
           target="_blank"
         >
@@ -28,7 +32,7 @@ function LinkPage({ title, link, index }) {
               d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"
             />
           </svg>
-        </a>
+        </motion.a>
       </article>
     </>
   );

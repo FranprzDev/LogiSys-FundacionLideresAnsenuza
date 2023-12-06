@@ -1,7 +1,10 @@
 import Cards from "./Cards";
 import { cardsArray } from "./Utils/constants";
+import { motion } from "framer-motion";
 
 function Home() {
+  const duration = 1.0;
+
   return (
     <>
       <section className="min-vh-100 d-flex align-items-center flex-column">
@@ -15,48 +18,78 @@ function Home() {
         </h3>
         <section className="container my-4">
           <div className="row flex-wrap">
-            <div className="col-12 col-md-6 col-lg-4">
+            <motion.div
+              className="col-12 col-md-6 col-lg-4"
+              initial={{ opacity: 0, scale: 0.2 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1.0 }}
+            >
               <Cards
                 title={cardsArray[0].title}
                 img={cardsArray[0].img}
                 text={cardsArray[0].text}
               />
-            </div>
-            <div className="col-12 col-md-6 col-lg-4">
+            </motion.div>
+            <motion.div
+              className="col-12 col-md-6 col-lg-4"
+              initial={{ opacity: 0, scale: 0.3 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1.25 }}
+            >
               <Cards
                 title={cardsArray[1].title}
                 img={cardsArray[1].img}
                 text={cardsArray[1].text}
               />
-            </div>
-            <div className="col-12 col-md-6 col-lg-4">
+            </motion.div>
+            <motion.div
+              className="col-12 col-md-6 col-lg-4"
+              initial={{ opacity: 0, scale: 0.4 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1.5 }}
+            >
               <Cards
                 title={cardsArray[2].title}
                 img={cardsArray[2].img}
                 text={cardsArray[2].text}
               />
-            </div>
-            <div className="col-12 col-md-6 col-lg-4">
+            </motion.div>
+            <motion.div
+              className="col-12 col-md-6 col-lg-4"
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1.75 }}
+            >
               <Cards
                 title={cardsArray[3].title}
                 img={cardsArray[3].img}
                 text={cardsArray[3].text}
               />
-            </div>
-            <div className="col-12 col-md-6 col-lg-4">
+            </motion.div>
+            <motion.div
+              className="col-12 col-md-6 col-lg-4"
+              initial={{ opacity: 0, scale: 0.6 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 2.0 }}
+            >
               <Cards
                 title={cardsArray[4].title}
                 img={cardsArray[4].img}
                 text={cardsArray[4].text}
               />
-            </div>
-            <div className="col-12 col-md-6 col-lg-4">
+            </motion.div>
+            <motion.div
+              className="col-12 col-md-6 col-lg-4"
+              initial={{ opacity: 0, scale: 0.7 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 2.5 }}
+            >
               <Cards
                 title={cardsArray[5].title}
                 img={cardsArray[5].img}
                 text={cardsArray[5].text}
               />
-            </div>
+            </motion.div>
           </div>
         </section>
       </section>

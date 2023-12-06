@@ -65,8 +65,20 @@ export const part4Array = [
         link: 'https://media.discordapp.net/attachments/1087586648381984778/1181513436929200158/image.png?ex=65815522&is=656ee022&hm=9751f15b5587c8889bd535d8f6cec58b0ae99be5399a5039136881c5440c583c&=&format=webp&quality=lossless'
     },
     {
+        title: 'Glosario',
+        link: 'https://drive.google.com/file/d/1BByNhEBZ-l3612FAXXHsRQJsyOG8gqxa/view?usp=drive_link'
+    },
+    {
+        title: 'Informe de Viabilidad',
+        link: 'https://drive.google.com/file/d/1lJ9899kA6mU2Td7KZnXUBynibPmioPXZ/view?usp=drive_link'
+    },
+    {
         title: 'Prototipos',
         link: 'https://www.figma.com/file/NJvnFdc8nmvBMiDTTpQuk4/LogiSys?type=design&node-id=0%3A1&mode=design&t=oNsHvxz5SZMNcU0N-1 '
+    },
+    {
+        title: 'Prototipos en PDF',
+        link: 'https://drive.google.com/file/d/10tLD95unSSf9EpyJQdt0EOySWPh2-ISZ/view?usp=drive_link'
     }
 ]
 

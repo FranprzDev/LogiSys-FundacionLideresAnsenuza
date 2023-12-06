@@ -8,6 +8,7 @@ import CuartaEtapa from './Etapas/CuartaEtapa'
 import Final from './Final'
 
 function App() {
+
   return (
     <> 
       <Header />
@@ -15,7 +16,8 @@ function App() {
         <Home/>
         <Nosotros />
 
-        <section className='py-5'>
+        <section className='py-5'
+        >
           <PrimeraEtapa />
           <SegundaEtapa />
           <TerceraEtapa />
