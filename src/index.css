@@ -144,4 +144,9 @@
     height: 10px;
     background: var(--red);
     transform-origin: 0%;
-  }
+}
+
+#animate-bounce {
+    animation: bounce 1s infinite;
+    
+}
